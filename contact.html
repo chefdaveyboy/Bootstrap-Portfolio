@@ -8,7 +8,7 @@
         <title>Dave Koeller-Contact Me</title>
     </head>
 
-    <body>
+    <body style="background-image: url(assets/images/triangle-mosaic.png)">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4aaaa5">
             <a class="navbar-brand">Dave Koeller</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,5 +22,39 @@
               </div>
             </div>
           </nav>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-8" style="margin-top: 50px; border: solid 2px #dddddd; padding: 20px;">
+                  <form>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Full Name</label>
+                        <input type="fullname" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@email.com">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div>
+                          <button class="btn btn-primary" type="submit" style="background-color: #4aaaa5; border-color: #4aaaa5;">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-2"></div>
+              </div>
+            </div>
+              <footer style="margin-top: 450px">
+                  <div class="container">
+                      <span class="text-muted">Powered By Bootstrap&trade;</span>
+                  </div>
+              </footer>  
     </body>
 </html>
+
